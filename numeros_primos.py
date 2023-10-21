@@ -11,8 +11,6 @@ continuar = str
 
 divisor = 1
 contador = 0
-continuar = "SI"
-
 
 #Entrada de datos de numeros enteros
 
