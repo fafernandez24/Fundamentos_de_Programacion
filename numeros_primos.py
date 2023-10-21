@@ -5,7 +5,6 @@
 n1 = int
 divisor = int
 contador = int
-continuar = str
 
 #Declaracion de variables.
 
