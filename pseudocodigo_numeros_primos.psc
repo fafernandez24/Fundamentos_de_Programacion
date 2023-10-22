@@ -10,9 +10,9 @@ Algoritmo primo
     Leer n1
     //empezamos  con la selectiva si, para descartar las excepciones que son el 2 y numeros negativos
     Si n1 == 2 Entonces
-        Escribir("2 Tiene una peculiaridad: es el único número par que es primo :D")
+        Escribir("2 es el único número par que es primo")
 	Sino Si n1 <= 1 Entonces;
-			Escribir(" Tiene una peculiaridad: al no ser mayor a 1, no es primo :(.")
+			Escribir(" Al no ser mayor a 1, no es primo.")
 		Sino
 			Mientras divisor <= n1 Hacer
 				Si n1 % divisor == 0 Entonces;
