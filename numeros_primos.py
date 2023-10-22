@@ -2,9 +2,9 @@
 
 #Definicion de variables.
 
-n1 = int
-divisor = int
-contador = int
+n1: int
+divisor: int
+contador: int
 
 #Declaracion de variables.
 
@@ -28,7 +28,6 @@ else:
     
 #Este ciclo while genera que mientras el numero divisor(comienza en uno), al ser dividido con n1 (que seria el dividendo) no de como residuo 0, se le sumara un numero al divisor.
 #Ejemplo: Si antes el divisor era 1, ahora pasa a ser 2, si aun no se logra que el residuo de 0, pasara a 3, hasta lograr que el residuo de 0.
-
 
     while divisor <= n1:
 
@@ -54,5 +53,4 @@ else:
 #En caso de que el numero tenga 3 o mas divisores, hace que este automaticamente deje de ser un numero primo
 
     if contador >= 3:
-        print("El numero ", n1, " NO ES primo")
-    
+        print("El numero ", n1, " NO ES primo")    
