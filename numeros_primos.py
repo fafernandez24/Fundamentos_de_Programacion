@@ -41,7 +41,7 @@ else:
 
         if contador >3:
             break
-        if divisor >= 101:
+        if divisor >= 1001:
             print("Su numero SI ES primo")
             break
 
